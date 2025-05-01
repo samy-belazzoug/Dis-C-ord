@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/balqisse.dir/includes_C.rsp -g -std=gnu99 -finput-charset=UTF-8 -fexec-charset=UTF-8 -o CMakeFiles/balqisse.dir/client/src/main.c.obj -c C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/main.c",
+  "file": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/main.c",
+  "output": "CMakeFiles/balqisse.dir/client/src/main.c.obj"
+}
+]
