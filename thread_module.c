@@ -1,4 +1,4 @@
-
+// test of Synchro
 // thread_module.c
 #include "thread_module.h"
 
