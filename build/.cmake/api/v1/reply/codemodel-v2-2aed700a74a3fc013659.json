@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "balqisse::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-balqisse-Debug-97ef75ec8c9a29fb6d4d.json",
-					"name" : "balqisse",
+					"id" : "mydiscord_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mydiscord_client-Debug-39d09216493e10f052a9.json",
+					"name" : "mydiscord_client",
 					"projectIndex" : 0
 				}
 			]

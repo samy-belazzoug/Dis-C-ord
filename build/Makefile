@@ -120,24 +120,72 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named balqisse
+# Target rules for targets named mydiscord_client
 
 # Build rule for target.
-balqisse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 balqisse
-.PHONY : balqisse
+mydiscord_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mydiscord_client
+.PHONY : mydiscord_client
 
 # fast build rule for target.
-balqisse/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/balqisse.dir/build.make CMakeFiles/balqisse.dir/build
-.PHONY : balqisse/fast
+mydiscord_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/build
+.PHONY : mydiscord_client/fast
+
+client/src/gui_add_user.obj: client/src/gui_add_user.c.obj
+.PHONY : client/src/gui_add_user.obj
+
+# target to build an object file
+client/src/gui_add_user.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/gui_add_user.c.obj
+.PHONY : client/src/gui_add_user.c.obj
+
+client/src/gui_add_user.i: client/src/gui_add_user.c.i
+.PHONY : client/src/gui_add_user.i
+
+# target to preprocess a source file
+client/src/gui_add_user.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/gui_add_user.c.i
+.PHONY : client/src/gui_add_user.c.i
+
+client/src/gui_add_user.s: client/src/gui_add_user.c.s
+.PHONY : client/src/gui_add_user.s
+
+# target to generate assembly for a file
+client/src/gui_add_user.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/gui_add_user.c.s
+.PHONY : client/src/gui_add_user.c.s
+
+client/src/gui_main.obj: client/src/gui_main.c.obj
+.PHONY : client/src/gui_main.obj
+
+# target to build an object file
+client/src/gui_main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/gui_main.c.obj
+.PHONY : client/src/gui_main.c.obj
+
+client/src/gui_main.i: client/src/gui_main.c.i
+.PHONY : client/src/gui_main.i
+
+# target to preprocess a source file
+client/src/gui_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/gui_main.c.i
+.PHONY : client/src/gui_main.c.i
+
+client/src/gui_main.s: client/src/gui_main.c.s
+.PHONY : client/src/gui_main.s
+
+# target to generate assembly for a file
+client/src/gui_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/gui_main.c.s
+.PHONY : client/src/gui_main.c.s
 
 client/src/main.obj: client/src/main.c.obj
 .PHONY : client/src/main.obj
 
 # target to build an object file
 client/src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/balqisse.dir/build.make CMakeFiles/balqisse.dir/client/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/main.c.obj
 .PHONY : client/src/main.c.obj
 
 client/src/main.i: client/src/main.c.i
@@ -145,7 +193,7 @@ client/src/main.i: client/src/main.c.i
 
 # target to preprocess a source file
 client/src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/balqisse.dir/build.make CMakeFiles/balqisse.dir/client/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/main.c.i
 .PHONY : client/src/main.c.i
 
 client/src/main.s: client/src/main.c.s
@@ -153,7 +201,7 @@ client/src/main.s: client/src/main.c.s
 
 # target to generate assembly for a file
 client/src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/balqisse.dir/build.make CMakeFiles/balqisse.dir/client/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydiscord_client.dir/build.make CMakeFiles/mydiscord_client.dir/client/src/main.c.s
 .PHONY : client/src/main.c.s
 
 # Help Target
@@ -164,7 +212,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... balqisse"
+	@echo "... mydiscord_client"
+	@echo "... client/src/gui_add_user.obj"
+	@echo "... client/src/gui_add_user.i"
+	@echo "... client/src/gui_add_user.s"
+	@echo "... client/src/gui_main.obj"
+	@echo "... client/src/gui_main.i"
+	@echo "... client/src/gui_main.s"
 	@echo "... client/src/main.obj"
 	@echo "... client/src/main.i"
 	@echo "... client/src/main.s"

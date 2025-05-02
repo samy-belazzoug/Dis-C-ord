@@ -1,8 +1,20 @@
 [
 {
   "directory": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/build",
-  "command": "C:/msys64/mingw64/bin/gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/balqisse.dir/includes_C.rsp -g -std=gnu99 -finput-charset=UTF-8 -fexec-charset=UTF-8 -o CMakeFiles/balqisse.dir/client/src/main.c.obj -c C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/main.c",
+  "command": "C:/msys64/mingw64/bin/gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/mydiscord_client.dir/includes_C.rsp -g -std=gnu99 -finput-charset=UTF-8 -fexec-charset=UTF-8 -o CMakeFiles/mydiscord_client.dir/client/src/gui_add_user.c.obj -c C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/gui_add_user.c",
+  "file": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/gui_add_user.c",
+  "output": "CMakeFiles/mydiscord_client.dir/client/src/gui_add_user.c.obj"
+},
+{
+  "directory": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/mydiscord_client.dir/includes_C.rsp -g -std=gnu99 -finput-charset=UTF-8 -fexec-charset=UTF-8 -o CMakeFiles/mydiscord_client.dir/client/src/gui_main.c.obj -c C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/gui_main.c",
+  "file": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/gui_main.c",
+  "output": "CMakeFiles/mydiscord_client.dir/client/src/gui_main.c.obj"
+},
+{
+  "directory": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/build",
+  "command": "C:/msys64/mingw64/bin/gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/mydiscord_client.dir/includes_C.rsp -g -std=gnu99 -finput-charset=UTF-8 -fexec-charset=UTF-8 -o CMakeFiles/mydiscord_client.dir/client/src/main.c.obj -c C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/main.c",
   "file": "C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/main.c",
-  "output": "CMakeFiles/balqisse.dir/client/src/main.c.obj"
+  "output": "CMakeFiles/mydiscord_client.dir/client/src/main.c.obj"
 }
 ]

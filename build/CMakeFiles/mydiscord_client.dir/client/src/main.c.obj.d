@@ -1,4 +1,4 @@
-CMakeFiles/balqisse.dir/client/src/main.c.obj: \
+CMakeFiles/mydiscord_client.dir/client/src/main.c.obj: \
  C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/src/main.c \
  C:/msys64/mingw64/include/gtk-3.0/gtk/gtk.h \
  C:/msys64/mingw64/include/gtk-3.0/gdk/gdk.h \
@@ -706,4 +706,5 @@ CMakeFiles/balqisse.dir/client/src/main.c.obj: \
  C:/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkvscale.h \
  C:/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkvscrollbar.h \
  C:/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkvseparator.h \
- C:/msys64/mingw64/include/gtk-3.0/gtk/gtk-autocleanups.h
+ C:/msys64/mingw64/include/gtk-3.0/gtk/gtk-autocleanups.h \
+ C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/client/include/gui_main.h

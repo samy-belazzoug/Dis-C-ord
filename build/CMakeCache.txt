@@ -215,6 +215,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+MyDiscord_BINARY_DIR:STATIC=C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord/build
+
+//Value Computed by CMake
+MyDiscord_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MyDiscord_SOURCE_DIR:STATIC=C:/Users/balqi/Desktop/plateforme/logiciel/projets-groupes/my_discord
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
