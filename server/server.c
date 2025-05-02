@@ -2,10 +2,10 @@
 #include <ws2tcpip.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 #pragma comment(lib,"ws2_32.lib")
 
 int main() {
+    
     WSADATA wsa;
 
     if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0) {
@@ -61,12 +61,13 @@ int main() {
         printf("Client disconnected or error.\n");
         break; // quitte la boucle si erreur ou déconnexion
     }
-
+    
     printf("Client : %s\n", buffer);
 
     const char *response = "Message received !";
     send(client_socket, response, strlen(response), 0);
     }
+    
     closesocket(client_socket);
     closesocket(sockfd);
     WSACleanup();

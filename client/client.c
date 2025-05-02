@@ -2,15 +2,18 @@
 #include <ws2tcpip.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <libpq-fe.h>
 #pragma comment(lib,"ws2_32.lib")
 
 int main() {
+    
     //Initialisation de WSA
     WSADATA wsa;
     if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0) { 
         printf("Échec de l'initialisation de WinSock : %d\n", WSAGetLastError());
         return 1;
     }
+
     printf("WinSock successfully initialized!\n");
 
     SOCKET sockfd = socket(AF_INET, SOCK_STREAM, 0);
@@ -36,6 +39,11 @@ int main() {
 
     char buffer[512] = {0};
 
+
+    //CONNEXION/CREATION COMPTE
+    
+
+
     while (1) {
     printf("You : ");
     fgets(buffer, sizeof(buffer), stdin); // lire entrée utilisateur
@@ -57,9 +65,10 @@ int main() {
         printf("Server disconnected or error.\n");
         break;
     }
-
+    
     printf("Server : %s\n", buffer);
     }
+
     closesocket(sockfd);
     WSACleanup();
     return 0;
