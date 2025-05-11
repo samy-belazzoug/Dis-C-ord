@@ -2,7 +2,6 @@
 #include <ws2tcpip.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <libpq-fe.h>
 #pragma comment(lib,"ws2_32.lib")
 
 int main() {
