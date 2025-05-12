@@ -52,8 +52,11 @@ int main() {
         return 1;
     }
 
+    printf("Client connected!");
+
     char buffer[512] = {0};
 
+    
     while (1) {
     ZeroMemory(buffer, sizeof(buffer)); // remet le buffer à zéro à chaque tour
 

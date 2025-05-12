@@ -36,13 +36,12 @@ int main() {
         return 1;
     }
 
-    char buffer[512] = {0};
+    printf("You are successfully connected!\n");
 
+    char buffer[512] = {0};
 
     //CONNEXION/CREATION COMPTE
     
-
-
     while (1) {
     printf("You : ");
     fgets(buffer, sizeof(buffer), stdin); // lire entrée utilisateur
@@ -66,6 +65,7 @@ int main() {
     }
     
     printf("Server : %s\n", buffer);
+    
     }
 
     closesocket(sockfd);
