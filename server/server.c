@@ -52,11 +52,14 @@ int main() {
         return 1;
     }
 
-    printf("Client connected!");
+    printf("Client connected!\n");
 
     char buffer[512] = {0};
-
     
+    const char *message = "Bienvenue sur myDiscord mais solo car pas fini!\n";
+    
+    send(client_socket,message,strlen(message),0);
+
     while (1) {
     ZeroMemory(buffer, sizeof(buffer)); // remet le buffer à zéro à chaque tour
 

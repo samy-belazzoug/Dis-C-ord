@@ -42,6 +42,9 @@ int main() {
 
     //CONNEXION/CREATION COMPTE
     
+    recv(sockfd,buffer,sizeof(buffer),0);
+    printf("Server : %s",buffer);
+
     while (1) {
     printf("You : ");
     fgets(buffer, sizeof(buffer), stdin); // lire entrée utilisateur
