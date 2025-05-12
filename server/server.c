@@ -34,7 +34,7 @@ int main() {
         WSACleanup();
         return 1;
     }
-
+ 
     listen(sockfd, SOMAXCONN);
 
     printf("Waiting for connexion...\n");
@@ -64,6 +64,7 @@ int main() {
     ZeroMemory(buffer, sizeof(buffer)); // remet le buffer à zéro à chaque tour
 
     int bytesReceived = recv(client_socket, buffer, sizeof(buffer), 0);
+
     if (bytesReceived <= 0) {
         printf("Client disconnected or error.\n");
         break; // quitte la boucle si erreur ou déconnexion
